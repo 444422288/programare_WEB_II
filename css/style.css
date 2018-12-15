@@ -1,0 +1,122 @@
+#pag{height: 180vh;background-color: green;}
+html{
+	font-family: Arial;
+	background-color: #efefef;
+}
+/* ########################################################################### */
+/* ############################# MENU_BLOCK ################################## */
+/* ########################################################################### */
+#topMenu{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;	
+	width: 100%;
+	height: 41px;
+	background-color: #232323;
+}
+
+#contentMenu{
+	text-align: center;
+	top: 0;
+	width: 100%;
+	max-width: 1360px;
+	height: 54px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* ################################# LOGOTIP ################################# */
+#logodiv{
+	width: 49.5%;
+	display: inline-block;
+	text-align: left;
+}
+
+#logoButton{
+	width: 180px;
+	height: 35px;
+	border:none;
+	background: url(../img/dlink-logo.png)no-repeat;
+	background-position: center;
+	background-size: 179px 34px;
+}
+/* ################################# LOGIN ################################### */
+
+#logindiv{
+	width: 49.5%;
+	display: inline-block;
+	text-align: right;
+}
+
+#loginButton{
+	width: 140px;
+	height: 35px;
+	border:none;
+	background: url(../img/login.jpg)no-repeat;
+	background-position: center;
+	background-size: 179px 37px;
+	border-radius: 15px;
+}
+/* ################################# CONTENT_MENU ########################### */
+#contentdiv{
+	margin-top:-46px;
+}
+
+#contentdiv ul {
+	list-style: none;
+}
+
+#contentdiv ul li{
+	display: inline-block;
+}
+
+#contentdiv ul li a{
+	font-weight: 600;
+	color: #FFF;
+	padding: 2px 9px;
+	font-size: 22px;
+	text-decoration: none; 
+}
+
+#contentdiv ul li a:hover{
+	color: #ffd12b;
+	border:1px solid red;
+	padding: 1px 8px;
+	border-radius: 4px;
+	background-color: #000000; 
+}
+
+.active{
+	background-color: #08c601; 
+	border:2px solid #08c601;
+	border-radius: 5px;
+}
+/* ########################################################################### */
+/* ############################# BOTTOM LINE ################################# */
+/* ########################################################################### */
+
+#bottomLine{
+	display: inline-block;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: black;
+	height: 25px;
+	text-align: center;
+	padding: 0;
+}
+#bottomLine p{
+	color: rgb(255, 0, 0);
+	font-weight: 800;
+	font-size: 15px;
+	margin-top: 2px;
+}
+#a1{
+	margin:0 7px;
+	color: rgb(250, 255, 0);
+}
+#a2{
+	color: rgb(0, 0, 255);
+}
