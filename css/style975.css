@@ -1,0 +1,121 @@
+@media screen and (max-width: 975px){
+/* ################################################################################## */
+/* ################################# CONTEINER MENU ################################# */
+/* ################################################################################## */
+
+#topMenu{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;	
+	width: 100%;
+	height: 55px;
+	background-color: #232323;
+}
+
+#contentdiv{
+	display: none;
+	position: absolute;
+	background-color: #232323;
+	left: 0;
+	top: 0;
+	height: 100vh;
+	width: 50%;
+	max-width: 275px;
+	padding-right: 50px;
+	margin-top: 3px;
+	text-align: left;
+	z-index: 3000;
+}
+
+#contentdiv ul {
+
+}
+
+
+#contentdiv ul {
+	margin-top: 80px;
+	list-style: none;
+}
+
+#contentdiv ul li{
+	display: block;
+}
+
+#contentdiv ul li a{
+	text-align: left;
+	font-weight: 600;
+	color: #FFF;
+	font-size: 22px;
+	text-decoration: none; 
+}
+
+#contentdiv ul li a:hover{
+	color: #ffd12b;
+	border:none;
+	border-left: 2px solid red;
+	border-bottom: 2px solid red;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 6px;
+	background-color: #000000; 
+}
+
+.active{
+	background-color: #08c601; 
+	border:2px solid #08c601;
+	border-radius: 5px;
+}
+
+#logodiv{
+	display: inline-block;
+	text-align: center;
+}
+
+#logoButton{
+	margin-top: -7px;
+	width: 50px;
+	height: 50px;
+	background: url(../img/menu.png)no-repeat;
+	background-size: 55px 55px;
+	background-position: center;
+	cursor: pointer;
+	margin-left: 50px;
+	border:none;
+
+}
+
+#loginButton{
+	margin-top: 2px;
+	width: 50px;
+	height: 50px;
+	border:none;
+	background: url(../img/lock.png)no-repeat;
+	background-position: center;
+	background-size: 52px 52px;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+#logindiv{
+	display: inline-block;
+	text-align: center;
+}
+#loginButton{
+	
+}
+
+
+#drop:hover > #contentdiv{
+	display: block;
+}
+/* ################################################################################## */
+
+/* ################################################################################## */
+
+
+
+
+
+
+}

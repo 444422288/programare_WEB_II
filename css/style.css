@@ -16,7 +16,7 @@ html{
 	background-color: #232323;
 }
 
-#contentMenu{
+.contentMenu{
 	text-align: center;
 	top: 0;
 	width: 100%;
@@ -27,7 +27,9 @@ html{
 }
 /* ################################# LOGOTIP ################################# */
 #logodiv{
-	width: 49.5%;
+	width: 100%;
+	top: 1px;
+	position: ;
 	display: inline-block;
 	text-align: left;
 }
@@ -42,8 +44,9 @@ html{
 }
 /* ################################# LOGIN ################################### */
 
-#logindiv{
+#logindiv{	
 	width: 49.5%;
+	top: 4px;
 	display: inline-block;
 	text-align: right;
 }
@@ -56,10 +59,22 @@ html{
 	background-position: center;
 	background-size: 179px 37px;
 	border-radius: 15px;
+	cursor: pointer;
 }
 /* ################################# CONTENT_MENU ########################### */
 #contentdiv{
-	margin-top:-46px;
+	position: fixed;
+	margin-top: -56px;
+	left: 10%;
+	right: 10%;
+	display: inline-block;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+#drop{
+	display: inline-block;
+	width: 49.45%;
 }
 
 #contentdiv ul {
@@ -67,10 +82,12 @@ html{
 }
 
 #contentdiv ul li{
+		margin-top: 10px;
 	display: inline-block;
 }
 
 #contentdiv ul li a{
+
 	font-weight: 600;
 	color: #FFF;
 	padding: 2px 9px;
