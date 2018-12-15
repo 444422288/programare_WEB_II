@@ -113,6 +113,59 @@
 
 /* ################################################################################## */
 
+.bloc{
+	text-align: center;
+	width: 99%;
+	height: 430px;
+	margin: 15px auto;	
+}
+
+#banner{
+	display: none;
+}
+
+#reclama{
+	display: none;
+}
+
+#reclama2{
+	display: block;
+	width: 95%;
+	height: 250px;
+	border-radius: 5px;
+	margin: 5px auto;
+	background: url(https://reklamakobrin.by/upload/iblock/576/576a95a1d23e6de65e8bf41793c19b41.jpg);
+	background-position: center;
+	background-size: auto 99%;
+}
+
+#content{
+	width: 98%;
+}
+
+
+.blocImg{
+	margin: auto;
+	width: 97.8%;
+	height: 99.5%;
+	display: inline-block;
+	border-right: 1px solid rgba(0, 0, 0,10%);
+	background-color: rgba(252, 252, 252,70%);
+	margin-right: -5px;
+	z-index: 2;
+}
+
+.blocTxt{
+	margin-top: -4px;
+	width: 97.8%;
+	height: 99.5%;
+	display: inline-block;
+	background-color:rgba(252, 252, 252,70%);
+	z-index: 3;
+}
+
+
+
 
 
 

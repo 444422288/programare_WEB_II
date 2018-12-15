@@ -1,7 +1,15 @@
-#pag{height: 180vh;background-color: green;}
 html{
 	font-family: Arial;
-	background-color: #efefef;
+	background-color: #f7f7f7;
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background:#f7f7f7 ;
+
 }
 /* ########################################################################### */
 /* ############################# MENU_BLOCK ################################## */
@@ -14,6 +22,7 @@ html{
 	width: 100%;
 	height: 41px;
 	background-color: #232323;
+	z-index: 1000;
 }
 
 .contentMenu{
@@ -123,6 +132,7 @@ html{
 	height: 25px;
 	text-align: center;
 	padding: 0;
+	z-index: 99;
 }
 #bottomLine p{
 	color: rgb(255, 0, 0);
@@ -136,4 +146,93 @@ html{
 }
 #a2{
 	color: rgb(0, 0, 255);
+}
+
+
+/* ########################################################################### */
+/* ################################# PAG ##################################### */
+/* ########################################################################### */
+#reclama2{
+	display: none;
+}
+
+#pag{
+	text-align: center;
+	border: 1px solid #e8e5e5; /*#e8e5e5*/
+	border-radius: 5px;
+	position: relative;
+	top: 60px;
+	width: 99.5%;
+	max-width: 1359px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #efefef ;/*#efefef*/
+	z-index: 1;
+
+}
+/* ################################# BANNER ##################################### */
+#banner{
+	width: 99%;
+	margin: 5px auto;
+
+}
+
+#bannerimg{
+
+	width: 100%;
+	border-radius: 8px;
+}
+
+#reclama{
+	vertical-align: top;
+	display: inline-block;
+	width: 19%;
+	height: 120vh;     /*     asta o sa trebuiasca stearsa <<<<<<<<<<<<<######################################################################################3   */
+	border-radius: 3px;
+	background: url(https://reklamakobrin.by/upload/iblock/576/576a95a1d23e6de65e8bf41793c19b41.jpg);
+	background-position: center;
+	background-size: 99% auto;
+}
+
+#content{
+	vertical-align: top;
+	display: inline-block;
+	width: 79%;
+	height: 180vh;
+}
+/* ################################# BLOC D-LINK ##################################### */
+
+
+.bloc{
+	text-align: center;
+	width: 99%;
+	height: 230px;
+	max-height: 250px;
+	margin: 15px auto;
+}
+
+.blocImg{
+	width: 25.8%;
+	height: 99%;
+	display: inline-block;
+	background-color: rgba(252, 252, 252,70%);
+	margin-right: -5px;
+}
+
+.blocTxt{
+	text-align: left;
+	vertical-align: top;
+	width: 73%;
+	height: 99%;
+	padding-right: 9px;
+	display: inline-block;
+	background-color:rgba(252, 252, 252,70%);
+}
+
+/*############ img set #######*/
+
+.routersImg{
+	left: 23%;
+	height: 100%;
+
 }
