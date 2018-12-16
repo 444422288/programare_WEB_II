@@ -187,18 +187,18 @@ body{
 	vertical-align: top;
 	display: inline-block;
 	width: 19%;
-	height: 120vh;     /*     asta o sa trebuiasca stearsa <<<<<<<<<<<<<######################################################################################3   */
+	height: 120vh;   /*      asta o sa trebuiasca stearsa <<<<<<<<<<<<<######################################################################################3   */
 	border-radius: 3px;
 	background: url(https://reklamakobrin.by/upload/iblock/576/576a95a1d23e6de65e8bf41793c19b41.jpg);
 	background-position: center;
 	background-size: 99% auto;
+	margin-top: 15px;
 }
 
 #content{
 	vertical-align: top;
 	display: inline-block;
 	width: 79%;
-	height: 180vh;
 }
 /* ################################# BLOC D-LINK ##################################### */
 
@@ -219,6 +219,37 @@ body{
 	margin-right: -5px;
 }
 
+.bigBlocImg{
+	display: none;
+	position: fixed;
+	width: 60%;
+	height: 33vw;
+	max-width: 1150px;
+	top: 50%;
+	border: 1px solid #a8a8a8;
+	background: rgba(255, 255, 255, 80%);
+	text-align: center;
+	left: 50%;
+    transform: translate(-50%, -50%);
+ 	
+}
+
+.bigRoutersImg{
+	position: fixed;
+	width: 95%;
+	top: 50%;
+	left: 50%
+	max-width: 1050px;
+	transform: translate(-50%, -65%);
+}
+
+
+
+.blocImg:hover > .bigBlocImg {
+	display: block;
+}
+
+
 .blocTxt{
 	text-align: left;
 	vertical-align: top;
@@ -235,4 +266,10 @@ body{
 	left: 23%;
 	height: 100%;
 
+}
+
+
+
+#locLiber{
+	height: 50px;
 }
