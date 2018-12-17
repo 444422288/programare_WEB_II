@@ -42,6 +42,9 @@ body{
 	display: inline-block;
 	text-align: left;
 }
+#xDrop{
+	display: none;
+}
 
 #logoButton{
 	width: 180px;
@@ -109,13 +112,13 @@ body{
 	border:1px solid red;
 	padding: 1px 8px;
 	border-radius: 4px;
-	background-color: #000000; 
+	background-color: #000000;
+
 }
 
-.active{
-	background-color: #08c601; 
-	border:2px solid #08c601;
-	border-radius: 5px;
+.active a{
+	background-color: #2f9b29; 
+	border-radius: 5px;	
 }
 /* ########################################################################### */
 /* ############################# BOTTOM LINE ################################# */
@@ -209,6 +212,9 @@ body{
 	height: 230px;
 	max-height: 250px;
 	margin: 15px auto;
+	border:1px solid rgba(50, 50, 50, 30%);
+	border-radius: 4px;
+	background-color: rgba(252, 252, 252,70%);
 }
 
 .blocImg{
@@ -219,18 +225,22 @@ body{
 	margin-right: -5px;
 }
 
+
+
 .bigBlocImg{
+	overflow:hidden;
 	display: none;
 	position: fixed;
-	width: 60%;
-	height: 33vw;
-	max-width: 1150px;
+	width: 95%;
+	height: 90%;
 	top: 50%;
 	border: 1px solid #a8a8a8;
-	background: rgba(255, 255, 255, 80%);
+	border-radius: 3px;
+	background: rgba(255, 255, 255, 70%);
 	text-align: center;
 	left: 50%;
-    transform: translate(-50%, -50%);
+	bottom: 0;
+    transform: translate(-50%, -48.7%);
  	
 }
 
@@ -239,23 +249,41 @@ body{
 	width: 95%;
 	top: 50%;
 	left: 50%
-	max-width: 1050px;
+	max-width: 50%;
+	max-width: 600px;
 	transform: translate(-50%, -65%);
 }
 
-
-
-.blocImg:hover > .bigBlocImg {
+.buttonX{
+	overflow:visible;
+	position: absolute;
 	display: block;
+	z-index: 1000;
+	width: 2.5vw;
+	height: 2.5vw;
+	right: 0;
+	padding: 0;
+	margin: 0;
+	top:0;
+    transform: translate(-5%, 5%);
+}
+.pointX{
+	cursor: pointer;
+	padding: 3px;
+	margin-top: -2px;
+}
+.aBigImg{
+	cursor: pointer;
 }
 
 
 .blocTxt{
 	text-align: left;
 	vertical-align: top;
-	width: 73%;
+	width: 70%;
 	height: 99%;
-	padding-right: 9px;
+	padding-right: 5px;
+	padding-left: 9px;
 	display: inline-block;
 	background-color:rgba(252, 252, 252,70%);
 }
@@ -263,10 +291,24 @@ body{
 /*############ img set #######*/
 
 .routersImg{
-	left: 23%;
-	height: 100%;
+	
+	height: auto;
+	margin-top: -23%;
+	display: block;
+	width: 100%;
 
 }
+
+
+
+.imgDiv{
+	overflow:hidden;
+	display: inline-block;
+	width: 99%;
+	height:99%;
+
+}
+
 
 
 

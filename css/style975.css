@@ -2,7 +2,9 @@
 /* ################################################################################## */
 /* ################################# CONTEINER MENU ################################# */
 /* ################################################################################## */
-
+.aBigImg{
+pointer-events: none;
+}
 #topMenu{
 	position: fixed;
 	top: 0;
@@ -27,9 +29,24 @@
 	text-align: left;
 	z-index: 3000;
 }
-
-#contentdiv ul {
-
+#xDrop{
+	position: absolute;
+	width: 80px;
+	height: 75px;
+	right: 38%;
+	top: -1%;
+	display: block;
+}
+#xDrop1{
+	position: absolute;
+	width: 80px;
+	height: 50px;
+	right: 33%;
+	top: 0;
+	display: block;
+}
+#aDropX{
+	cursor: pointer;
 }
 
 
@@ -61,11 +78,15 @@
 	background-color: #000000; 
 }
 
-.active{
-	background-color: #08c601; 
+
+.active a{
+	color: #ff9c23;
+	background-color: #2f9b29; 
 	border:2px solid #08c601;
 	border-radius: 5px;
 }
+
+
 
 #logodiv{
 	display: inline-block;
@@ -84,7 +105,11 @@
 	border:none;
 
 }
-
+/*
+#drop:hover > #contentdiv{
+	display: block;
+}
+*/
 #loginButton{
 	margin-top: 2px;
 	width: 50px;
@@ -101,24 +126,8 @@
 	display: inline-block;
 	text-align: center;
 }
-#loginButton{
-	
-}
 
 
-#drop:hover > #contentdiv{
-	display: block;
-}
-/* ################################################################################## */
-
-/* ################################################################################## */
-
-.bloc{
-	text-align: center;
-	width: 99%;
-	height: 430px;
-	margin: 15px auto;	
-}
 
 #banner{
 	display: none;
@@ -139,31 +148,63 @@
 	background-size: auto 99%;
 }
 
+/* ################################################################################## */
+
+
 #content{
 	width: 98%;
 }
 
+.bloc{
+	overflow:hidden;
+	border:1px solid #a8a8a8;
+	text-align: center;
+	width: 99%;
+	height:500px;
+	max-height:500px ;
+	margin: 15px auto;
+	border-radius: 5px;
+	background-color: rgba(252, 252, 252,70%);
+}
 
 .blocImg{
-	margin: auto;
-	width: 97.8%;
-	height: 99.5%;
+	width: 99%;
+	height: 50%;
 	display: inline-block;
-	border-right: 1px solid rgba(0, 0, 0,10%);
 	background-color: rgba(252, 252, 252,70%);
-	margin-right: -5px;
-	z-index: 2;
+	margin-right: 0;
+	text-align: center;
+	border-bottom: 2px solid #eaeaea;
+
 }
 
 .blocTxt{
-	margin-top: -4px;
-	width: 97.8%;
-	height: 99.5%;
-	display: inline-block;
+	text-align: left;
+	vertical-align: bottom;
+	width: 99%;
+	height: auto;
+	padding-left: 2vw;
+	padding-right: 2vw;
 	background-color:rgba(252, 252, 252,70%);
-	z-index: 3;
+}
+.routersImg{
+	width: auto;
+	margin-top: -200px;
+		margin-left: auto;
+	margin-right: auto;
 }
 
+
+/* ################################################################################## */
+/*
+
+
+/*##############################################*/
+
+
+#locLiber{
+	height: 50px;
+}
 
 
 
