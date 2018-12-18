@@ -80,10 +80,16 @@ pointer-events: none;
 
 
 .active a{
-	color: #ff9c23;
-	background-color: #2f9b29; 
-	border:2px solid #08c601;
+	background-color: #358421; 
+	border:2px solid #358421;
 	border-radius: 5px;
+}
+
+.active {
+	height: auto;
+	background-color: rgba(0,0,0,0);	
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
 }
 
 

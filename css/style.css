@@ -108,18 +108,22 @@ body{
 }
 
 #contentdiv ul li a:hover{
-	color: #ffd12b;
-	border:1px solid red;
-	padding: 1px 8px;
-	border-radius: 4px;
-	background-color: #000000;
+	color: #ffcc00;
+	border-radius: 2px;
+	text-decoration: underline;
 
 }
 
-.active a{
-	background-color: #2f9b29; 
-	border-radius: 5px;	
+.active {
+	height: 36px;
+	background-color: #358421; 	
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px
+	
 }
+
+
+
 /* ########################################################################### */
 /* ############################# BOTTOM LINE ################################# */
 /* ########################################################################### */
@@ -190,7 +194,7 @@ body{
 	vertical-align: top;
 	display: inline-block;
 	width: 19%;
-	height: 120vh;   /*      asta o sa trebuiasca stearsa <<<<<<<<<<<<<######################################################################################3   */
+	height: 150vh;   /*      asta o sa trebuiasca stearsa <<<<<<<<<<<<<######################################################################################3   */
 	border-radius: 3px;
 	background: url(https://reklamakobrin.by/upload/iblock/576/576a95a1d23e6de65e8bf41793c19b41.jpg);
 	background-position: center;
@@ -231,27 +235,40 @@ body{
 	overflow:hidden;
 	display: none;
 	position: fixed;
-	width: 95%;
-	height: 90%;
+	width: 101%;
+	height: 101%;
 	top: 50%;
 	border: 1px solid #a8a8a8;
 	border-radius: 3px;
-	background: rgba(255, 255, 255, 70%);
+	background: rgba(0, 0, 0, 80%);
 	text-align: center;
 	left: 50%;
 	bottom: 0;
     transform: translate(-50%, -48.7%);
  	
 }
-
-.bigRoutersImg{
+#patrat{
 	position: fixed;
 	width: 95%;
+	height: 80%;
+	overflow:hidden;
+	background: rgba(252, 252, 252,80%);
+	min-width: 950px;
+	max-width: 1150px;
+	max-height: 750px;
+	transform: translate(-50%, -55%);
 	top: 50%;
-	left: 50%
-	max-width: 50%;
-	max-width: 600px;
-	transform: translate(-50%, -65%);
+	left: 50%;
+	border-radius: 5px;
+
+
+}
+
+.bigRoutersImg{
+	height: 150%;
+	margin-top: -25%;
+	
+	
 }
 
 .buttonX{
@@ -259,13 +276,13 @@ body{
 	position: absolute;
 	display: block;
 	z-index: 1000;
-	width: 2.5vw;
-	height: 2.5vw;
+	width: 38px;
+	height: 38px;
 	right: 0;
 	padding: 0;
 	margin: 0;
 	top:0;
-    transform: translate(-5%, 5%);
+
 }
 .pointX{
 	cursor: pointer;
@@ -314,4 +331,19 @@ body{
 
 #locLiber{
 	height: 50px;
+}
+
+
+.h2Text{
+	text-decoration: underline;
+	font-size: 30px;
+	padding-bottom: 2px;
+	margin-bottom: 2px;
+	color: #232323;
+}
+
+.pText{
+	padding-top: 2px;
+	margin-top: 2px;
+	color: #424141;
 }
