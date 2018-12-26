@@ -115,7 +115,7 @@ body{
 }
 
 .active {
-	height: 36px;
+	height: 33px;
 	background-color: #358421; 	
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px
@@ -313,26 +313,18 @@ body{
 	margin-top: -23%;
 	display: block;
 	width: 100%;
-
 }
-
-
 
 .imgDiv{
 	overflow:hidden;
 	display: inline-block;
 	width: 99%;
 	height:99%;
-
 }
-
-
-
 
 #locLiber{
 	height: 50px;
 }
-
 
 .h2Text{
 	text-decoration: underline;
@@ -347,3 +339,42 @@ body{
 	margin-top: 2px;
 	color: #424141;
 }
+
+.bloc2{
+    text-align: center;
+	width: 99%;
+    height: 98;
+	margin: 15px auto;
+	border:1px solid rgba(50, 50, 50, 30%);
+	border-radius: 4px;
+	background-color: rgba(252, 252, 252,65%);
+}
+
+.bloc2 p{
+    margin-top: -1px;
+    text-align: left;
+    height: auto;
+    width: auto;
+    font-size: 17px;
+    font-weight: 600;
+    color: #5b5b5b;     
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bloc2 h1, .bloc2 h2, .bloc2 h3{
+    font-size: 23px;
+    font-weight: 600;
+    color: #262525;     
+}
+
+.bloc2 h2, .bloc2 h3{
+    font-size: 20px;
+    margin-bottom: -1.5px;
+}
+
+.bloc2 img{
+    width: 70%;
+    max-width: 600px;
+}
+
